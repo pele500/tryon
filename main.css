@@ -1,4 +1,6 @@
-
+body{
+    background-image: url(./assets/background.jpg);
+}
 #tree {
     position: absolute;
     width: 47vmax;
@@ -17,11 +19,11 @@
     right: 53vw;
     width: 11vmax;
 }
-#food {
+#pod {
     position: absolute;
-    top: 64vh;
-    right: 54vw;
-    width: 11vmax;
+    top: 63vh;
+    right: 51vw;
+    width: 14vmax;
 }
 
 #salon {
@@ -31,10 +33,10 @@
     width: 14vmax;
 }
 
-#shop {
+#food {
     position: absolute;
-    top: 62vh;
-    right: 7vw;
+    top: 64vh;
+    right: 6vw;
     width: 11vmax;
 }
 
@@ -43,4 +45,24 @@
     top: 79vh;
     right: 0vw;
     width: 17vmax;
+}
+
+#info{
+    display: none;
+    position: absolute;
+    top: 23vh;
+    right: 6vw;
+    width: 88vw;
+    height: 53vh;
+    background-color: cornsilk;
+}
+#x{
+    position: absolute;
+    right: 2vw;
+}
+#text{
+    position: relative;
+    direction: rtl;
+    top: 4vh;
+    right: 5vw;
 }
