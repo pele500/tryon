@@ -1,41 +1,46 @@
 
 #tree {
     position: absolute;
+    width: 47vmax;
 }
 
 #bee_shop {
     position: absolute;
-    top: 134vh;
-    right: 28vw;
-    width: 34vmax;
+    top: 51vh;
+    right: 34vw;
+    width: 26vmax;
 }
 
 #fitness {
     position: absolute;
-    top: 155vh;
-    right: 41vw;
+    top: 79vh;
+    right: 53vw;
+    width: 11vmax;
 }
-
 #food {
     position: absolute;
-    top: 129vh;
-    right: -15vw;
+    top: 64vh;
+    right: 54vw;
+    width: 11vmax;
 }
 
 #salon {
     position: absolute;
-    top: 153vh;
-    right: -18vw;
+    top: 49vh;
+    right: 4vw;
+    width: 14vmax;
 }
 
 #shop {
     position: absolute;
-    top: 122vh;
-    right: -79vw;
+    top: 62vh;
+    right: 7vw;
+    width: 11vmax;
 }
 
 #uni {
     position: absolute;
-    top: 157vh;
-    right: -88vw;
+    top: 79vh;
+    right: 0vw;
+    width: 17vmax;
 }
