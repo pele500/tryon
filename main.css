@@ -4,6 +4,7 @@ body{
 #tree {
     position: absolute;
     width: 47vmax;
+    height: 50vh;
 }
 
 #bee_shop {
@@ -65,4 +66,83 @@ body{
     direction: rtl;
     top: 4vh;
     right: 5vw;
+}
+
+@media screen and (max-width:375px){
+    #uni {
+        position: absolute;
+        top: 91vh;
+        right: -4vw;
+        width: 20vmax;
+    }
+    #fitness {
+        position: absolute;
+        top: 90vh;
+        right: 53vw;
+        width: 14vmax;
+    }
+    #food {
+        position: absolute;
+        top: 73vh;
+        right: 2vw;
+        width: 13vmax;
+    }
+    #pod {
+        position: absolute;
+        top: 72vh;
+        right: 48vw;
+        width: 18vmax;
+    }
+    #salon {
+        position: absolute;
+        top: 55vh;
+        right: -5vw;
+        width: 18vmax;
+    }
+    #bee_shop {
+        position: absolute;
+        top: 58vh;
+        right: 34vw;
+        width: 29vmax;
+    }
+    
+}
+@media screen and (max-width:320px){
+    #uni {
+        position: absolute;
+        top: 106vh;
+        right: -25vw;
+        width: 25vmax;
+    }
+    #fitness {
+        position: absolute;
+        top: 105vh;
+        right: 50vw;
+        width: 16vmax;
+    }
+    #food {
+        position: absolute;
+        top: 87vh;
+        right: -15vw;
+        width: 16vmax;
+    }
+    #pod {
+        position: absolute;
+        top: 86vh;
+        right: 41vw;
+        width: 21vmax;
+    }
+    #salon {
+        position: absolute;
+        top: 61vh;
+        right: -23vw;
+        width: 21vmax;
+    }
+    #bee_shop {
+        position: absolute;
+        top: 68vh;
+        right: 22vw;
+        width: 29vmax;
+    }
+    
 }

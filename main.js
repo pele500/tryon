@@ -43,7 +43,9 @@ const showInfosal = (event) =>{
     adding();
 }
 const showInfofood = (event) =>{
-    document.getElementById('info').innerHTML += `<h1 id="text">${event.target.id}</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">בוקר: 6:45 עד 8:00</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">צהריים: 11:45 עד 13:00</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">ערב: 17:45 עד 19:00</h1>`;
     document.getElementById('info').style.display = 'block';
     document.getElementById('x').addEventListener('click',close);
     adding();
