@@ -3,8 +3,10 @@ body{
 }
 #tree {
     position: absolute;
-    width: 47vmax;
-    height: 50vh;
+    width: 96vw;
+    height: 71vh;
+    z-index: 1;
+    top: 16vh;
 }
 
 #bee_shop {
@@ -54,12 +56,22 @@ body{
     top: 23vh;
     right: 6vw;
     width: 88vw;
-    height: 53vh;
+    height: 57vh;
     background-color: cornsilk;
 }
 #x{
     position: absolute;
     right: 2vw;
+}
+#x2{
+    position: absolute;
+    right: 2vw;
+    z-index: 2;
+    top: 16vh;
+    width: 6vmax;
+}
+#treeMali{
+    display: none;
 }
 #text{
     position: relative;
@@ -67,7 +79,28 @@ body{
     top: 4vh;
     right: 5vw;
 }
-
+#headline{
+    position: relative;
+    text-align: center;
+    font-family: system-ui;
+    top: 2vh;
+}
+#more{
+    position: relative;
+    direction: rtl;
+    top: 5vh;
+    font-size: 4vmax;
+    font-family: cursive;
+}
+#btnMali{
+    position: absolute;
+    top: 32vh;
+    right: 33vw;
+    font-size: 5vmax;
+    border-style: inset;
+    border-color: #668d6b;
+    background-color: #adf3b5;
+}
 @media screen and (max-width:375px){
     #uni {
         position: absolute;
