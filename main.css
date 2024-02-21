@@ -67,8 +67,8 @@ body{
     top: 23vh;
     right: 6vw;
     width: 88vw;
-    height: 57vh;
-    background-color: cornsilk;
+    height: 61vh;
+    background-color: #ffa280;
 }
 #x{
     position: absolute;
@@ -90,10 +90,29 @@ body{
     top: 4vh;
     right: 5vw;
 }
+#textB{
+    position: absolute;
+    direction: rtl;
+    top: -1vh;
+    right: 28vw;
+}
+#textM{
+    position: relative;
+    direction: rtl;
+    top: 4vh;
+    right: 25vw;
+}
+#textD{
+    position: relative;
+    direction: rtl;
+    top: 4vh;
+    right: 25vw;
+}
 #headline{
     position: relative;
     text-align: center;
     font-family: system-ui;
+    font-size: 4.5vmax;
 }
 #more{
     position: relative;
@@ -187,5 +206,14 @@ body{
         right: 22vw;
         width: 29vmax;
     }
-    
+    #btnMali {
+        position: absolute;
+        top: 47vh;
+        right: 17vw;
+        font-size: 5vmax;
+    }
+    #more {
+        right: -4vw;
+        width: 116vw;
+    }
 }

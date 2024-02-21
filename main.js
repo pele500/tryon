@@ -21,7 +21,15 @@ const adding = () =>{
 
 }
 const showInfobee = (event) =>{
-    document.getElementById('info').innerHTML += `<h1 id="text">${event.target.id}</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="textB">כוורת</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text"> 8:15 עד 19:45א-ה:</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">ה: 8:15 עד 16:30</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="textM">סטקיה</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">א-ד: 11:30 עד 19:00</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">ה: סגור</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="textD"> חלביה</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">א-ד: 8:30 עד 21:00</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">ה: 8:30 עד 15:00</h1>`;
     document.getElementById('info').style.display = 'block';
     document.getElementById('x').addEventListener('click',close);
     adding();
@@ -39,7 +47,13 @@ const showInfopod = (event) =>{
     adding();
 }
 const showInfosal = (event) =>{
-    document.getElementById('info').innerHTML += `<h1 id="text">${event.target.id}</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">יום א: 13:30 עד 17:30</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">19:00 עד 20:30</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">יום ב-ד: 8:00 עד 11:30</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">13:30 עד 17:30</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">19:00 עד 20:30</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">יום ה: 8:00 עד 11:30</h1>`;
+    document.getElementById('info').innerHTML += `<h1 id="text">13:00 עד 14:30</h1>`;
     document.getElementById('info').style.display = 'block';
     document.getElementById('x').addEventListener('click',close);
     adding();
