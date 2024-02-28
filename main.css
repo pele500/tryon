@@ -1,16 +1,42 @@
-body{
-    background-image: url(./assets/background.jpg);
+@font-face {
+    font-family: assistant;
+    src: url(./assets/Assistant.ttf);
 }
-#idf{
-    width: 8vmax;
+
+@font-face {
+    font-family: assistantBold;
+    src: url(./assets/Assistant\ Bold.ttf);
 }
-#earth{
-    width: 7vmax;
+
+body {
+    background-image: url(./assets/graphic/background.png);
+    width: 100vw;
+    height: 100vh;
 }
-#mali{
-    width: 5vmax;
-    position: relative;
-    left: 2vw;
+
+#idf {
+    width: 13vmax;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#headline {
+    position: absolute;
+    width: 37vmax;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#more {
+    position: absolute;
+    top: 13vh;
+    width: 38vmax;
+    left: 50%;
+    transform: translate(-50%);
+}
+#treeMali {
+    display: none;
 }
 #tree {
     position: absolute;
@@ -19,49 +45,71 @@ body{
     z-index: 1;
     top: 16vh;
 }
-
+#btnMali {
+    position: absolute;
+    top: 18vh;
+    width: 42vmax;
+    left: 50%;
+    transform: translate(-50%);
+}
+#icons{
+    position: absolute;
+    width: 100vw;
+    height: 60vh;
+    top: 37vh;
+}
 #bee_shop {
     position: absolute;
-    top: 51vh;
-    right: 34vw;
-    width: 26vmax;
+    top: 0vh;
+    right: 11vw;
+    width: 27vmax;
 }
 
 #fitness {
     position: absolute;
-    top: 79vh;
-    right: 53vw;
-    width: 11vmax;
+    top: 17vh;
+    right: 8vw;
+    width: 28vmax;
 }
-#pod {
-    position: absolute;
-    top: 63vh;
-    right: 51vw;
-    width: 14vmax;
-}
-
 #salon {
     position: absolute;
-    top: 49vh;
-    right: 4vw;
-    width: 14vmax;
+    top: 35vh;
+    right: 8vw;
+    width: 26vmax;
 }
-
 #food {
     position: absolute;
-    top: 64vh;
-    right: 6vw;
-    width: 11vmax;
+    top: 0vh;
+    right: 46vw;
+    width: 27vmax;
+}
+#hospital {
+    position: absolute;
+    top: 17vh;
+    right: 44vw;
+    width: 29vmax;
 }
 
 #uni {
     position: absolute;
-    top: 79vh;
-    right: 0vw;
-    width: 17vmax;
+    top: 35vh;
+    right: 46vw;
+    width: 27vmax;
 }
-
 #info{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0vh;
+    right: 0vw;
+    opacity: 0.2;
+    background-color: black;
+}
+#showInfo{
+    display: none;
+}
+/* #info {
     display: none;
     position: absolute;
     top: 23vh;
@@ -69,151 +117,54 @@ body{
     width: 88vw;
     height: 61vh;
     background-color: #ffa280;
-}
-#x{
+} */
+
+#x {
     position: absolute;
     right: 2vw;
+    opacity: 1;
 }
-#x2{
+
+#x2 {
     position: absolute;
     right: 2vw;
     z-index: 2;
     top: 16vh;
     width: 6vmax;
 }
-#treeMali{
-    display: none;
-}
-#text{
+#text {
     position: relative;
     direction: rtl;
     top: 4vh;
     right: 5vw;
 }
-#textB{
+
+#textB {
     position: absolute;
     direction: rtl;
     top: -1vh;
     right: 28vw;
 }
-#textM{
+
+#textM {
     position: relative;
     direction: rtl;
     top: 4vh;
     right: 25vw;
 }
-#textD{
+
+#textD {
     position: relative;
     direction: rtl;
     top: 4vh;
     right: 25vw;
 }
-#headline{
-    position: relative;
-    text-align: center;
-    font-family: system-ui;
-    font-size: 4.5vmax;
+
+@media screen and (max-width:375px) {
+
+
 }
-#more{
-    position: relative;
-    direction: rtl;
-    top: 1vh;
-    font-size: 4vmax;
-    font-family: cursive;
-}
-#btnMali{
-    position: absolute;
-    top: 32vh;
-    right: 33vw;
-    font-size: 5vmax;
-    border-style: inset;
-    border-color: #668d6b;
-    background-color: #adf3b5;
-}
-@media screen and (max-width:375px){
-    #uni {
-        position: absolute;
-        top: 91vh;
-        right: -4vw;
-        width: 20vmax;
-    }
-    #fitness {
-        position: absolute;
-        top: 90vh;
-        right: 53vw;
-        width: 14vmax;
-    }
-    #food {
-        position: absolute;
-        top: 73vh;
-        right: 2vw;
-        width: 13vmax;
-    }
-    #pod {
-        position: absolute;
-        top: 72vh;
-        right: 48vw;
-        width: 18vmax;
-    }
-    #salon {
-        position: absolute;
-        top: 55vh;
-        right: -5vw;
-        width: 18vmax;
-    }
-    #bee_shop {
-        position: absolute;
-        top: 58vh;
-        right: 34vw;
-        width: 29vmax;
-    }
-    
-}
-@media screen and (max-width:320px){
-    #uni {
-        position: absolute;
-        top: 106vh;
-        right: -25vw;
-        width: 25vmax;
-    }
-    #fitness {
-        position: absolute;
-        top: 105vh;
-        right: 50vw;
-        width: 16vmax;
-    }
-    #food {
-        position: absolute;
-        top: 87vh;
-        right: -15vw;
-        width: 16vmax;
-    }
-    #pod {
-        position: absolute;
-        top: 86vh;
-        right: 41vw;
-        width: 21vmax;
-    }
-    #salon {
-        position: absolute;
-        top: 61vh;
-        right: -23vw;
-        width: 21vmax;
-    }
-    #bee_shop {
-        position: absolute;
-        top: 68vh;
-        right: 22vw;
-        width: 29vmax;
-    }
-    #btnMali {
-        position: absolute;
-        top: 47vh;
-        right: 17vw;
-        font-size: 5vmax;
-    }
-    #more {
-        right: -4vw;
-        width: 116vw;
-    }
+
+@media screen and (max-width:320px) {
+
 }
