@@ -97,6 +97,11 @@ body {
     right: 46vw;
     width: 27vmax;
 }
+.infos{
+    width: 95vw;
+    position: relative;
+    right: 2vw;
+}
 #info{
     display: none;
     width: 100vw;

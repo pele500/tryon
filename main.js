@@ -21,7 +21,7 @@ const adding = () =>{
 
 }
 const showInfobee = (event) =>{
-    document.getElementById('showInfo').innerHTML = `<img src="./assets/graphic/infoBee.png" alt="infoBee">`;
+    document.getElementById('showInfo').innerHTML = `<img src="./assets/graphic/infoBee.png" alt="infoBee" class="infos">`;
     document.getElementById('showInfo').innerHTML += `<div id="x"></div>`;
     document.getElementById('info').style.display = 'block';
     document.getElementById('showInfo').style.display = 'block';
@@ -29,7 +29,7 @@ const showInfobee = (event) =>{
     adding();
 }
 const showInfohos = (event) =>{
-    document.getElementById('showInfo').innerHTML = `<img src="./assets/graphic/infoHos.png" alt="infohos">`;
+    document.getElementById('showInfo').innerHTML = `<img src="./assets/graphic/infoHos.png" alt="infohos" class="infos">`;
     document.getElementById('showInfo').innerHTML += `<div id="x"></div>`;
     document.getElementById('info').style.display = 'block';
     document.getElementById('showInfo').style.display = 'block';
@@ -37,7 +37,7 @@ const showInfohos = (event) =>{
     adding();
 }
 const showInfofitness = (event) =>{
-    document.getElementById('showInfo').innerHTML = `<img src="./assets/graphic/infofit.png" alt="infofit">`;
+    document.getElementById('showInfo').innerHTML = `<img src="./assets/graphic/infofit.png" alt="infofit" class="infos">`;
     document.getElementById('showInfo').innerHTML += `<div id="x"></div>`;
     document.getElementById('info').style.display = 'block';
     document.getElementById('showInfo').style.display = 'block';
@@ -45,7 +45,7 @@ const showInfofitness = (event) =>{
     adding();
 }
 const showInfosal = (event) =>{
-    document.getElementById('showInfo').innerHTML = `<img src="./assets/graphic/infoSal.png" alt="infoSal">`;
+    document.getElementById('showInfo').innerHTML = `<img src="./assets/graphic/infoSal.png" alt="infoSal" class="infos">`;
     document.getElementById('showInfo').innerHTML += `<div id="x"></div>`;
     document.getElementById('info').style.display = 'block';
     document.getElementById('showInfo').style.display = 'block';
@@ -53,7 +53,7 @@ const showInfosal = (event) =>{
     adding();
 }
 const showInfofood = (event) =>{
-    document.getElementById('showInfo').innerHTML = `<img src="./assets/graphic/infoFood.png" alt="infoFood">`;
+    document.getElementById('showInfo').innerHTML = `<img src="./assets/graphic/infoFood.png" alt="infoFood" class="infos">`;
     document.getElementById('showInfo').innerHTML += `<div id="x"></div>`;
     document.getElementById('info').style.display = 'block';
     document.getElementById('showInfo').style.display = 'block';
@@ -61,7 +61,7 @@ const showInfofood = (event) =>{
     adding();
 }
 const showInfouni = (event) =>{
-    document.getElementById('showInfo').innerHTML = `<img src="./assets/graphic/infoUni.png" alt="infoUni">`;
+    document.getElementById('showInfo').innerHTML = `<img src="./assets/graphic/infoUni.png" alt="infoUni" class="infos">`;
     document.getElementById('showInfo').innerHTML += `<div id="x"></div>`;
     document.getElementById('info').style.display = 'block';
     document.getElementById('showInfo').style.display = 'block';
