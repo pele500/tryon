@@ -36,9 +36,11 @@ body {
     left: 50%;
     transform: translate(-50%);
 }
+
 #treeMali {
     display: none;
 }
+
 #tree {
     position: relative;
     width: 96vw;
@@ -46,6 +48,7 @@ body {
     z-index: 1;
     top: -78vh;
 }
+
 #btnMali {
     position: absolute;
     top: 18vh;
@@ -53,12 +56,14 @@ body {
     left: 50%;
     transform: translate(-50%);
 }
-#icons{
+
+#icons {
     position: absolute;
     width: 100vw;
     height: 60vh;
     top: 37vh;
 }
+
 #bee_shop {
     position: absolute;
     top: 0vh;
@@ -72,18 +77,21 @@ body {
     right: 8vw;
     width: 28vmax;
 }
+
 #salon {
     position: absolute;
     top: 35vh;
     right: 8vw;
     width: 26vmax;
 }
+
 #food {
     position: absolute;
     top: 0vh;
     right: 46vw;
     width: 27vmax;
 }
+
 #hospital {
     position: absolute;
     top: 17vh;
@@ -97,12 +105,14 @@ body {
     right: 46vw;
     width: 27vmax;
 }
-.infos{
+
+.infos {
     width: 95vw;
     position: relative;
     right: 2vw;
 }
-#info{
+
+#info {
     display: none;
     width: 100vw;
     height: 100vh;
@@ -113,11 +123,13 @@ body {
     background-color: black;
     z-index: 1;
 }
-#showInfo{
+
+#showInfo {
     display: none;
     z-index: 2;
     position: absolute;
 }
+
 #x {
     position: absolute;
     right: 21vw;
@@ -134,11 +146,6 @@ body {
     width: 9vmax;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:375px) {}
 
-
-}
-
-@media screen and (max-width:320px) {
-
-}
+@media screen and (max-width:320px) {}
