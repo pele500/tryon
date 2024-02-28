@@ -40,11 +40,11 @@ body {
     display: none;
 }
 #tree {
-    position: absolute;
+    position: relative;
     width: 96vw;
     height: 71vh;
     z-index: 1;
-    top: 23vh;
+    top: -78vh;
 }
 #btnMali {
     position: absolute;
