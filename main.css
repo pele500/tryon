@@ -46,7 +46,7 @@ body {
     width: 96vw;
     height: 71vh;
     z-index: 1;
-    top: -75vh;
+    bottom: 76vh;
 }
 
 #btnMali {
