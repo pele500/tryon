@@ -43,7 +43,7 @@ body {
 
 #tree {
     position: relative;
-    right: 14vw;
+    left: -16vw;
     width: 128vw;
     height: 71vh;
     z-index: 1;
