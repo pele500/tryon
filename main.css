@@ -50,7 +50,8 @@ body {
     top: -140vh;
 }
 #treeK{
-    
+    position: relative;
+    right: 14vw;
 }
 #btnMali {
     position: absolute;
