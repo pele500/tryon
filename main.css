@@ -43,13 +43,15 @@ body {
 
 #tree {
     position: relative;
-    left: -16vw;
-    width: 123vw;
-    height: 71vh;
+    left: 6vw;
+    width: 88vw;
+    height: 87vh;
     z-index: 1;
-    bottom: 74vh;
+    top: -140vh;
 }
-
+#treeK{
+    
+}
 #btnMali {
     position: absolute;
     top: 18vh;
