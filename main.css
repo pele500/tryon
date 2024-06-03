@@ -52,6 +52,7 @@ body {
 #treeK{
     position: relative;
     right: 7vw;
+    opacity: 0;
 }
 #btnMali {
     position: absolute;
