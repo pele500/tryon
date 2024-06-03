@@ -47,12 +47,11 @@ body {
     width: 88vw;
     height: 87vh;
     z-index: 1;
-    top: -110vh;
+    top: -95vh;
 }
 #treeK{
     position: relative;
     right: 7vw;
-    opacity: 0;
 }
 #btnMali {
     position: absolute;
